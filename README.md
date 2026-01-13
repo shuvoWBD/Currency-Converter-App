@@ -18,6 +18,40 @@ The program handles invalid inputs such as non-numeric amounts or unsupported cu
 
 Reset and Exit Controls:
 
-.The Reset button clears all input fields and results
+1.The Reset button clears all input fields and results
 
-.The Quit button safely closes the application
+2.The Quit button safely closes the application
+
+
+
+
+Technical Architecture
+
+a. Programming Language and Library
+
+b. Language: Python
+
+GUI Library: Tkinter (built-in Python module)
+
+Application Structure
+The program follows a simple event-driven architecture:
+
+a. User actions (button clicks) trigger specific functions
+
+b. Each function performs a defined task such as conversion, reset, or exit
+
+Data Layer (Exchange Rates)
+Currency exchange rates are stored in a Python dictionary called rates, with USD as the base currency. This provides fast lookup and easy scalability.
+
+Conversion Logic
+The conversion process happens in two steps:
+
+a. Convert the input amount from the source currency to USD
+
+b. Convert the USD amount to the target currency
+
+UI Layout Management
+The .place() geometry manager is used to position labels, entry fields, buttons, and result text at fixed coordinates within the window.
+
+Exception Handling
+A try-except block is used in the conversion function to prevent runtime errors caused by invalid input or missing data.
