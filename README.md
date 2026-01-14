@@ -1,5 +1,11 @@
 # Currency-Converter-App
-A Python Tkinter GUI app that converts amounts between multiple currencies including USD, BDT, INR, EUR, GBP, and more. Features a user-friendly interface, colorful buttons, and real-time conversion results.  Technologies:  1.Python 3  2.Tkinter for GUI
+A Python Tkinter-based currency converter that lets users convert amounts between multiple global currencies. It features a simple interface with input fields for amount, source, and target currencies, along with convert and reset options.
+
+
+
+🚀Project Overview:
+This is a universal currency converter application built with Python and Tkinter that allows users to convert amounts between multiple global currencies, including USD, BDT, INR, EUR, and GBP. The interface is simple and user friendly, with input fields for the amount, source currency, and target currency, along with buttons to convert, reset, or quit. It displays the converted amount clearly and handles invalid inputs gracefully. This project is a practical example of Python GUI development and working with real-world data.
+
 
 
 ✨Key Features:
