@@ -3,35 +3,35 @@ A Python Tkinter-based currency converter that lets users convert amounts betwee
 
 
 
-🚀Project Overview:
+🚀**Project Overview:**
+
 This is a universal currency converter application built with Python and Tkinter that allows users to convert amounts between multiple global currencies, including USD, BDT, INR, EUR, and GBP. The interface is simple and user friendly, with input fields for the amount, source currency, and target currency, along with buttons to convert, reset, or quit. It displays the converted amount clearly and handles invalid inputs gracefully. This project is a practical example of Python GUI development and working with real-world data.
 
 
 
-✨Key Features:
+✨**Key Features:**
 
-Universal Currency Conversion:
+✔Universal Currency Conversion:
 The application can convert between any two supported currencies. All conversions use USD as the base currency, which allows cross-currency conversion without needing direct exchange rates between every pair.
 
-Multiple Currency Support:
+✔Multiple Currency Support:
 The app supports 17 international currencies including USD, BDT, INR, EUR, GBP, JPY, and more. Adding a new currency is easy. You only need to add a new entry to the rates dictionary.
 
-Simple and User-Friendly Interface:
+✔Simple and User-Friendly Interface:
 The GUI is built using Tkinter with large fonts, clear labels, and color-coded buttons. This makes the application easy to use even for beginners.
 
-Input Validation and Error Handling:
+✔Input Validation and Error Handling:
 The program handles invalid inputs such as non-numeric amounts or unsupported currency codes. In these cases, it shows a clear error message instead of crashing.
 
-Reset and Exit Controls:
+✔Reset and Exit Controls:
 
-✔ The Reset button clears all input fields and results
-
-✔ The Quit button safely closes the application
-
+ * The Reset button clears all input fields and results.
+ * The Quit button safely closes the application
 
 
 
-🛠️Technical Architecture:
+
+🛠️**Technical Architecture:**
 
 ✔ Programming Language and Library
 
